@@ -1,0 +1,3 @@
+// we should use s.push_back() instead of using str = s + 'a' to for adding a character at the end of a string cuz:
+// -> the time complexity of s.push_back() is O(1) 
+// -> however in case of str = s+'a' time complexity depends on the size of the given string because when using this method the copy of string s is created first and the a is concatenated and then stored in the string str
